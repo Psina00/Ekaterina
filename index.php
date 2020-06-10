@@ -100,7 +100,7 @@ setcookie('cookie_time', 0);
              <form method="post" action="wait.php">
              <div1>
                <h3 class="alert alert-warning">
-             <a href="http://localhost/Laba2/ladder.php"> See the RateTable </a>
+             <a href="ladder.php"> See the RateTable </a>
              </h3>
              </div1>
              <div align="center">
@@ -112,7 +112,7 @@ setcookie('cookie_time', 0);
                 </h1> <br>
                 <input type="submit" class="btn btn-success" value="PLAY"> <br>
                 <h3 class="alert alert-warning">
-                <br> <a href="http://localhost/Laba2/auth.php"> Log out </a>
+                <br> <a href="auth.php"> Log out </a>
                  </h3>
                 </div>
                 </form>

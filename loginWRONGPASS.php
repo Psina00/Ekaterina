@@ -41,7 +41,7 @@
                         </tr>
                        </table>
                          <input type="submit" class="btn btn-success" value="login"> <br>
-                         <a href="http://localhost/Laba2/signup.php"> Sign up </a>
+                         <a href="signup.php"> Sign up </a>
                        </div>
                     </form>
              </body>

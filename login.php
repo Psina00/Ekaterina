@@ -42,7 +42,7 @@
 
                        <input type="submit" class="btn btn-success" value="login"> <br>
                        <h3 class="alert alert-warning">
-                       <a href="http://localhost/Laba2/signup.php">  Sign up </a>
+                       <a href="signup.php">  Sign up </a>
                      </h3>
                      </div>
                   </form>
