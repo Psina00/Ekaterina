@@ -162,7 +162,7 @@ $user1=$user1[0];
                                    $result=mysqli_query($link, $query);
                                    print "You will return to the start page in 10 seconds";
                                    mysqli_close($link);
-                                   header ('URL = http://localhost/Laba2/index.php');
+                                   header ('URL = index.php');
                                    die();
                                 }
                                 if (($status[0]==3 AND $user!=$user1) OR ($status[0]==4 AND $user==$user1)) {
@@ -195,7 +195,7 @@ $user1=$user1[0];
                                     $result=mysqli_query($link, $query);
                                     print "~You will return to the start page in 10 seconds~";
                                     mysqli_close($link);
-                                    header ('URL = http://localhost/Laba2/index.php');
+                                    header ('URL = index.php');
                                     die();
                                 }
                         ?>
@@ -298,7 +298,7 @@ $user1=$user1[0];
                       </h2>
                       <br>
                       <h2 class="alert alert-warning">
-                      <br> <a href="http://localhost/Laba2/index.php"> Give up... </a>
+                      <br> <a href="index.php"> Give up... </a>
                       </h2>
                       </div3>
                </form>

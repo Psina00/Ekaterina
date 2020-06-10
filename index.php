@@ -1,7 +1,7 @@
 <?php
    require_once 'database.php';
    if (!isset($_COOKIE['cookie_token'])) {
-        header("Location: http://localhost/Laba2/login.php");
+        header("Location: login.php");
         die();
    }
    $token=$_COOKIE['cookie_token'];
