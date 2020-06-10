@@ -202,7 +202,7 @@ $user1=$user1[0];
                         </h2>
                         <label><input type="submit" name="drop" class="btn btn-success" value="Drop!"></label>
                         <label><input type="submit" name="pass" class="btn btn-success" value="Pass!"></label> <br>
-                        <h3 class="alert alert-warning">
+                        <h2 class="alert alert-warning">
                         <?php
                             if(array_key_exists('drop',$_POST)){
                                  $query="SELECT total FROM games WHERE id='$id'";
